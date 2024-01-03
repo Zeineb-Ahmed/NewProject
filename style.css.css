@@ -1,0 +1,98 @@
+body
+{
+    color: black;
+    background-color: white;
+    background-image: url(image2.jpg);
+    margin: 0;
+}
+.title1
+{
+font-size:  70px;
+color:aquamarine
+}
+.title2
+{
+    font-size: 40;
+   text-align: center;
+   color: rgb(205, 17, 164);
+}
+a
+{
+    text-decoration: none;
+    font-size: 25;
+    color: yellowgreen; 
+}
+a:hover
+{
+    color: red;
+}
+a:visited
+{
+color: gray;
+}
+
+.container
+{
+background-color: rgb(14, 196, 242);
+width: 1250;
+padding: 5px;
+border: 3px,solid,rgb(6, 0, 0);
+box-sizing:content-box;
+font-size: 20;
+margin: 15px,15px;
+}
+.container::first-line
+{
+    color: rgba(238, 46, 25, 0.693);
+}
+.container::first-letter
+{
+    color: rgb(67, 16, 232);
+    font-size: 30;
+}
+.img
+{
+    text-align: center;
+    border: 50;
+}
+.h3
+{
+    text-align: center;
+    
+}
+h3::before
+{
+    content:"Nom de l'article ";
+    color: chartreuse;
+}
+h3::after
+{
+    content: " photo de l'article ";
+    color:orangered;  
+}
+.paragraphe2::selection
+{
+    color: white;
+    background-color: brown;
+    font-size: 30;
+}
+.paragraphe2 
+{
+    font-size: 25;
+}
+#selectList:focus
+{
+    background-color: rgb(27, 12, 235);
+}
+#t1:focus
+{
+  outline: 1px solid olivedrab;  
+}
+#t2:focus
+{
+  outline: 1px solid olivedrab;  
+}
+a:active
+{
+   color: green; 
+}
